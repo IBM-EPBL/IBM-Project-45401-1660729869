@@ -1,0 +1,13 @@
+LED BLINK LIGHT
+import time
+a=int(input())
+if a==1:
+    print("blink ret light")
+    time.sleep(10)
+    print("red off")
+    time.sleep(2)
+    print("blink yellow light")
+    time.sleep(10)
+    print("blink green light")
+    time.sleep(10)
+        
